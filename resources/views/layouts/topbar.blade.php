@@ -27,8 +27,8 @@
                                    <div class="site-branding">
                                        <a class="home-link" href="/" title="Raxena" rel="home">
                                            <img style="border-radius: 10px" id="logo-img" class="img-center"
-                                               src="https://www.emaar.vn/bat-dong-san/wp-content/uploads/2018/04/Untitled.png"
-                                               height="75" alt="logo-img">
+                                               src="/themes/{{ $theme }}/images/logo.png" height="75"
+                                               alt="logo-img">
                                        </a>
                                    </div><!-- site-branding end -->
                                    <!--site-navigation -->

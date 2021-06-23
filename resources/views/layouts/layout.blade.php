@@ -9,7 +9,7 @@ $theme = 'emaarland';
     @include('layouts.head')
 </head>
 
-<body>
+<body class="custom-scrollbar">
 
     <!--page start-->
     <div class="page">
@@ -18,7 +18,7 @@ $theme = 'emaarland';
 
         @include('layouts.topbar')
 
-        @include('elements.slider')
+        @include('elements.slider', ['data' => $data->slider])
 
 
 

@@ -1,0 +1,23 @@
+.custom-scrollbar {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: white;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 15px;
+    background-color: transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #cfcfcf;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:active {
+    background-color: #003c52;
+  }

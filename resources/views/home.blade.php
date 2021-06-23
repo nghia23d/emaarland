@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
-      <!--project-section-->
-      <section class="cmt-row project-section clearfix">
+    <!--project-section-->
+    <section class="cmt-row project-section clearfix">
         <div class="container">
             <div class="row">
                 <!-- row -->
@@ -33,8 +33,7 @@
                                     </div>
                                 </div>
                                 <div class="featured-icon">
-                                    <div
-                                        class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-lg">
+                                    <div class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-lg">
                                         <i class="flaticon flaticon-builder-2"></i>
                                     </div>
                                 </div>
@@ -55,8 +54,7 @@
                                     </div>
                                 </div>
                                 <div class="featured-icon">
-                                    <div
-                                        class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-lg">
+                                    <div class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-lg">
                                         <i class="flaticon flaticon-builder"></i>
                                     </div>
                                 </div>
@@ -76,8 +74,7 @@
                                     </div>
                                 </div>
                                 <div class="featured-icon">
-                                    <div
-                                        class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-lg">
+                                    <div class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-lg">
                                         <i class="flaticon flaticon-process"></i>
                                     </div>
                                 </div>
@@ -97,8 +94,7 @@
                                     </div>
                                 </div>
                                 <div class="featured-icon">
-                                    <div
-                                        class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-lg">
+                                    <div class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-lg">
                                         <i class="flaticon flaticon-sketch"></i>
                                     </div>
                                 </div>
@@ -112,8 +108,8 @@
             <!-- row-->
             <div class="row mt-30">
                 <div class="col-md-12 text-center">
-                    <p class="mb-0">Don’t hesitate, contact us for better help and services.<strong><u><a
-                                    href="#" class="cmt-textcolor-darkgrey">
+                    <p class="mb-0">Don’t hesitate, contact us for better help and services.<strong><u><a href="#"
+                                    class="cmt-textcolor-darkgrey">
                                     Explore all services</a></u></strong></p>
                 </div>
             </div>
@@ -133,8 +129,8 @@
                         <div class="layer-content">
                         </div>
                     </div>
-                    <img src="https://via.placeholder.com/525x655/848484/FFFFFF.jpg"
-                        class="cmt-equal-height-image" alt="bg-image">
+                    <img src="https://via.placeholder.com/525x655/848484/FFFFFF.jpg" class="cmt-equal-height-image"
+                        alt="bg-image">
 
                     <!-- ttm_single_image-wrapper end -->
                     <div class="about-overlay-shape style1 cmt-bgcolor-skincolor">
@@ -172,11 +168,11 @@
                                 <ul class="cmt-list cmt-list-style-icon">
                                     <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span
                                             class="cmt-list-li-content">Routine and medical care</span></li>
-                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span
-                                            class="cmt-list-li-content"> Building a healthy environment.</span>
+                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">
+                                            Building a healthy environment.</span>
                                     </li>
-                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span
-                                            class="cmt-list-li-content"> Excellence in Healthcare every.</span>
+                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">
+                                            Excellence in Healthcare every.</span>
                                     </li>
                                 </ul>
                             </div>
@@ -184,11 +180,11 @@
                                 <ul class="cmt-list cmt-list-style-icon">
                                     <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span
                                             class="cmt-list-li-content">Routine and medical care</span></li>
-                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span
-                                            class="cmt-list-li-content"> Excellence in Healthcare every.</span>
+                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">
+                                            Excellence in Healthcare every.</span>
                                     </li>
-                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span
-                                            class="cmt-list-li-content"> Building a healthy environment.</span>
+                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span class="cmt-list-li-content">
+                                            Building a healthy environment.</span>
                                     </li>
                                 </ul>
                             </div>
@@ -348,733 +344,10 @@
         </div>
     </section>
     <!--fid-left-section-->
-    <!--service-section-->
-    <section class="cmt-row service-section style2 bg-img6 clearfix">
-        <div class="container">
-            <div class="row">
-                <!-- row -->
-                <div class="col-md-2 col-lg-3"></div>
-                <div class="col-sm-12 col-md-8 col-lg-6">
-                    <!-- section title -->
-                    <div class="section-title with-desc text-center clearfix">
-                        <div class="title-header">
-                            <h5>WORKING WITH EXCELLENT</h5>
-                            <h2 class="title">Our special services</h2>
-                        </div>
-                    </div><!-- section title end -->
-                </div>
-                <div class="col-md-2 col-lg-3"></div>
-            </div><!-- row end -->
-            <div class="row">
-                <!-- row -->
-                <!-- services-slide -->
-                <div class="services-slide owl-carousel" data-item="3" data-nav="false" data-dots="false"
-                    data-auto="true">
-                    <!--featured-imagebox-->
-                    <div class="featured-imagebox-services">
-                        <div class="featured-thumbnail box-shadow">
-                            <img class="img-fluid" src="https://via.placeholder.com/1200x800/848484/FFFFFF.jpg"
-                                alt="">
-                            <div class="cmt-box-view-overlay">
-                                <!-- cmt-box-view-overlay -->
-                            </div>
-                        </div>
-                        <div class="featured-content featured-content-services box-shadow">
-                            <div class="featured-icon-box">
-                                <div class="featured-icon">
-                                    <div
-                                        class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                                        <i class="flaticon flaticon-house"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bottom-content-services">
-                                <div class="featured-title">
-                                    <h5><a href="apartment-design.html">Apartment
-                                            Design</a></h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>By dealing with data, select to ols that help you utomate tim cons sses.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="services-icon-box">
-                                <a href="apartment-design.html"><i
-                                        class="ti ti-plus"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                    <!--featured-imagebox-->
-                    <div class="featured-imagebox-services">
-                        <div class="featured-thumbnail box-shadow">
-                            <img class="img-fluid" src="https://via.placeholder.com/1200x800/848484/FFFFFF.jpg"
-                                alt="">
-                            <div class="cmt-box-view-overlay">
-                                <!-- cmt-box-view-overlay -->
-                            </div>
-                        </div>
-                        <div class="featured-content featured-content-services box-shadow">
-                            <div class="featured-icon-box">
-                                <div class="featured-icon">
-                                    <div
-                                        class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                                        <i class="flaticon flaticon-sketch"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bottom-content-services">
-                                <div class="featured-title">
-                                    <h5><a href="house-planning.html">House
-                                            Planning</a></h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>By dealing with data, select to ols that help you utomate tim cons sses.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="services-icon-box">
-                                <a href="house-planning.html"><i
-                                        class="ti ti-plus"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                    <!--featured-imagebox-->
-                    <div class="featured-imagebox-services">
-                        <div class="featured-thumbnail box-shadow">
-                            <img class="img-fluid" src="https://via.placeholder.com/1200x800/848484/FFFFFF.jpg"
-                                alt="">
-                            <div class="cmt-box-view-overlay">
-                                <!-- cmt-box-view-overlay -->
-                            </div>
-                        </div>
-                        <div class="featured-content featured-content-services box-shadow">
-                            <div class="featured-icon-box">
-                                <div class="featured-icon">
-                                    <div
-                                        class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                                        <i class="flaticon flaticon-wrench"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bottom-content-services">
-                                <div class="featured-title">
-                                    <h5><a href="repair-welding.html">Repair
-                                            Welding</a></h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>By dealing with data, select to ols that help you utomate tim cons sses.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="services-icon-box">
-                                <a href="repair-welding.html"><i
-                                        class="ti ti-plus"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                    <!--featured-imagebox-->
-                    <div class="featured-imagebox-services">
-                        <div class="featured-thumbnail box-shadow">
-                            <img class="img-fluid" src="https://via.placeholder.com/1200x800/848484/FFFFFF.jpg"
-                                alt="">
-                            <div class="cmt-box-view-overlay">
-                                <!-- cmt-box-view-overlay -->
-                            </div>
-                        </div>
-                        <div class="featured-content featured-content-services box-shadow">
-                            <div class="featured-icon-box">
-                                <div class="featured-icon">
-                                    <div
-                                        class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                                        <i class="flaticon flaticon-gear"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bottom-content-services">
-                                <div class="featured-title">
-                                    <h5><a href="expert-mechanical.html">Expert
-                                            Mechanical</a></h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>By dealing with data, select to ols that help you utomate tim cons sses.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="services-icon-box">
-                                <a href="expert-mechanical.html"><i
-                                        class="ti ti-plus"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                    <!--featured-imagebox-->
-                    <div class="featured-imagebox-services">
-                        <div class="featured-thumbnail box-shadow">
-                            <img class="img-fluid" src="https://via.placeholder.com/1200x800/848484/FFFFFF.jpg"
-                                alt="">
-                            <div class="cmt-box-view-overlay">
-                                <!-- cmt-box-view-overlay -->
-                            </div>
-                        </div>
-                        <div class="featured-content featured-content-services box-shadow">
-                            <div class="featured-icon-box">
-                                <div class="featured-icon">
-                                    <div
-                                        class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                                        <i class="flaticon flaticon-idea"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bottom-content-services">
-                                <div class="featured-title">
-                                    <h5><a href="management.html">Management</a>
-                                    </h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>By dealing with data, select to ols that help you utomate tim cons sses.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="services-icon-box">
-                                <a href="management.html"><i
-                                        class="ti ti-plus"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                    <!--featured-imagebox-->
-                    <div class="featured-imagebox-services">
-                        <div class="featured-thumbnail box-shadow">
-                            <img class="img-fluid" src="https://via.placeholder.com/1200x800/848484/FFFFFF.jpg"
-                                alt="">
-                            <div class="cmt-box-view-overlay">
-                                <!-- cmt-box-view-overlay -->
-                            </div>
-                        </div>
-                        <div class="featured-content featured-content-services box-shadow">
-                            <div class="featured-icon-box">
-                                <div class="featured-icon">
-                                    <div
-                                        class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                                        <i class="flaticon flaticon-helmet"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bottom-content-services">
-                                <div class="featured-title">
-                                    <h5><a href="general-contracting.html">General
-                                            Contracting</a></h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>By dealing with data, select to ols that help you utomate tim cons sses.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="services-icon-box">
-                                <a href="general-contracting"><i
-                                        class="ti ti-plus"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                </div>
-            </div><!-- row end -->
-        </div>
-    </section>
-    <!--service-section end-->
 
-    <!--row-title-section-->
-    <section class="cmt-row row-title-section style2 bg-img7 cmt-bgcolor-skincolor clearfix">
-        <div class="container">
-            <div class="row">
-                <!-- row -->
-                <div class="col-sm-12 col-md-12 col-lg-7">
-                    <div class="">
-                        <!-- section title -->
-                        <div class="section-title row-title clearfix">
-                            <div class="title-header">
-                                <h2 class="title">Creating Lasting Impressions To Through Interior Design</h2>
-                            </div>
-                            <div class="title-desc pr-30 res-991-pr-0">
-                                Our projects are fully tested, background checked, license validated and insured
-                                with a 100% satisfaction guarantee.
-                            </div>
-                        </div><!-- section title end -->
-                        <div class="cmt-video-icon cmt-left-video-icon ttm_prettyphoto mt-35 res-991-mt-30">
-                            <a class="cmt-icon cmt-icon_element-fill cmt-icon_element-background-color-white cmt-icon_element-size-md cmt-icon_element-style-round ttm_prettyphoto mb-0"
-                                href="https://youtu.be/7e90gBu4pas">
-                                <i class="fa fa-play cmt-textcolor-darkgrey"></i>
-                            </a>
-                            <a href="https://youtu.be/7e90gBu4pas"
-                                class="ml-15 ttm_prettyphoto">See Our Video</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-5">
-                    <div class="box-shadow spacing-4 cmt-bgcolor-white">
-                        <!-- section title -->
-                        <div class="section-title clearfix">
-                            <div class="title-header">
-                                <h4 class="title">Why people are choose our best constuction</h4>
-                            </div>
-                        </div><!-- section title end -->
-                        <div class="row no-gutters">
-                            <div class="col-md-6 col-lg-6 col-sm-6">
-                                <ul class="cmt-list cmt-list-style-icon">
-                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span
-                                            class="cmt-list-li-content">Expert &amp; Profesional</span></li>
-                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span
-                                            class="cmt-list-li-content"> 24x7 Emergency</span></li>
-                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span
-                                            class="cmt-list-li-content">High Quality Work</span></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6 col-lg-6 col-sm-6">
-                                <ul class="cmt-list cmt-list-style-icon">
-                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span
-                                            class="cmt-list-li-content">Expert &amp; Profesional</span></li>
-                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span
-                                            class="cmt-list-li-content"> 24x7 Emergency</span></li>
-                                    <li><i class="icon-ok-5 cmt-textcolor-skincolor"></i><span
-                                            class="cmt-list-li-content"> High Quality Work</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="row no-gutters pt-25">
-                            <div class="col-md-6 col-sm-6">
-                                <!--featured-icon-box-->
-                                <div class="featured-icon-box left-icon style7">
-                                    <div class="featured-icon">
-                                        <!--featured-icon-->
-                                        <div
-                                            class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                                            <i class="flaticon flaticon-phone-call"></i>
-                                        </div>
-                                    </div>
-                                    <div class="featured-content">
-                                        <!--featured-content-->
-                                        <div class="featured-title">
-                                            <h5>Toll Free NO.</h5>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <!--featured-desc-->
-                                            <p>+844 1800 33 555</p>
-                                        </div>
-                                    </div>
-                                    <!--featured-icon-box-->
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <!--featured-icon-box-->
-                                <div class="featured-icon-box left-icon style7">
-                                    <div class="featured-icon">
-                                        <!--featured-icon-->
-                                        <div
-                                            class="cmt-icon cmt-icon_element-color-skincolor cmt-icon_element-size-md">
-                                            <i class="flaticon flaticon-envelope"></i>
-                                        </div>
-                                    </div>
-                                    <div class="featured-content">
-                                        <!--featured-content-->
-                                        <div class="featured-title">
-                                            <h5>Email</h5>
-                                        </div>
-                                        <div class="featured-desc">
-                                            <!--featured-desc-->
-                                            <p><a
-                                                    href="mailto:info@example.com">info@example.com</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <!--featured-icon-box-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- row end -->
-        </div>
-    </section>
-    <!--row-title-section END-->
 
-    <!--team-section-->
-    <section class="cmt-row team-section style1 clearfix">
-        <div class="container">
-            <div class="row">
-                <!-- row -->
-                <div class="col-md-2 col-lg-3"></div>
-                <div class="col-sm-12 col-md-8 col-lg-6">
-                    <!-- section title -->
-                    <div class="section-title with-desc text-center clearfix">
-                        <div class="title-header">
-                            <h5>WORKING WITH EXCELLENT</h5>
-                            <h2 class="title">Our great team</h2>
-                        </div>
-                    </div><!-- section title end -->
-                </div>
-                <div class="col-md-2 col-lg-3"></div>
-            </div><!-- row end -->
-            <!-- row -->
-            <div class="row">
-                <div class="team-slide owl-carousel owl-theme owl-loaded" data-item="3" data-nav="false"
-                    data-dots="false" data-auto="false">
-                    <!-- featured-imagebox-team -->
-                    <div class="featured-imagebox featured-imagebox-team style1">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img class="img-fluid" src="https://via.placeholder.com/535x575/848484/FFFFFF.jpg"
-                                alt="image">
-                            <div class="cmt-box-view-overlay">
-                                <!-- cmt-box-view-overlay -->
-                            </div>
-                            <div class="cmt-social-links-wrapper">
-                                <ul class="social-icons square list-inline">
-                                    <li class="social-facebook"><a href="#"><i
-                                                class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li class="social-teitter"><a href=""><i
-                                                class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li class="social-instagram"><a href="#"><i
-                                                class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div><!-- featured-thumbnail end-->
-                        <div class="featured-content text-center">
-                            <div class="featured-title">
-                                <h5><a href="team-details.html">Joya Mitchel</a>
-                                </h5>
-                            </div>
-                            <div class="category">
-                                <p>Installation Civil Enginner</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox -->
-                    <!-- featured-imagebox -->
-                    <div class="featured-imagebox featured-imagebox-team style1">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img class="img-fluid" src="https://via.placeholder.com/535x575/848484/FFFFFF.jpg"
-                                alt="image">
-                            <div class="cmt-box-view-overlay">
-                                <!-- cmt-box-view-overlay -->
+    <!--portfolio-text-section-->
 
-                            </div><!-- featured-thumbnail end-->
-                            <div class="cmt-social-links-wrapper">
-                                <ul class="social-icons square list-inline">
-                                    <li class="social-facebook"><a href="#"><i
-                                                class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li class="social-teitter"><a href=""><i
-                                                class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li class="social-instagram"><a href="#"><i
-                                                class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="featured-content text-center">
-                            <div class="featured-title">
-                                <h5><a href="team-details.html">Dwayn Royes</a>
-                                </h5>
-                            </div>
-                            <div class="category">
-                                <p>Installation Civil Enginner</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox -->
-                    <!-- featured-imagebox -->
-                    <div class="featured-imagebox featured-imagebox-team style1">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img class="img-fluid" src="https://via.placeholder.com/535x575/848484/FFFFFF.jpg"
-                                alt="image">
-                            <div class="cmt-box-view-overlay">
-                                <!-- cmt-box-view-overlay -->
-
-                            </div><!-- featured-thumbnail end-->
-                            <div class="cmt-social-links-wrapper">
-                                <ul class="social-icons square list-inline">
-                                    <li class="social-facebook"><a href="#"><i
-                                                class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li class="social-teitter"><a href=""><i
-                                                class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li class="social-instagram"><a href="#"><i
-                                                class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="featured-content text-center">
-                            <div class="featured-title">
-                                <h5><a href="team-details.html">John Martin</a>
-                                </h5>
-                            </div>
-                            <div class="category">
-                                <p>Installation Civil Enginner</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox -->
-                    <!-- featured-imagebox -->
-                    <div class="featured-imagebox featured-imagebox-team style1">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img class="img-fluid" src="https://via.placeholder.com/535x575/848484/FFFFFF.jpg"
-                                alt="image">
-                            <div class="cmt-box-view-overlay">
-                                <!-- cmt-box-view-overlay -->
-
-                            </div><!-- featured-thumbnail end-->
-                            <div class="cmt-social-links-wrapper">
-                                <ul class="social-icons square list-inline">
-                                    <li class="social-facebook"><a href="#"><i
-                                                class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li class="social-teitter"><a href=""><i
-                                                class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li class="social-instagram"><a href="#"><i
-                                                class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="featured-content text-center">
-                            <div class="featured-title">
-                                <h5><a href="team-details.html">Smitherford</a>
-                                </h5>
-                            </div>
-                            <div class="category">
-                                <p>Installation Civil Enginner</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox -->
-                    <!-- featured-imagebox -->
-                    <div class="featured-imagebox featured-imagebox-team style1">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img class="img-fluid" src="https://via.placeholder.com/535x575/848484/FFFFFF.jpg"
-                                alt="image">
-                            <div class="cmt-box-view-overlay">
-                                <!-- cmt-box-view-overlay -->
-
-                            </div><!-- featured-thumbnail end-->
-                            <div class="cmt-social-links-wrapper">
-                                <ul class="social-icons square list-inline">
-                                    <li class="social-facebook"><a href="#"><i
-                                                class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li class="social-teitter"><a href=""><i
-                                                class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li class="social-instagram"><a href="#"><i
-                                                class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="featured-content text-center">
-                            <div class="featured-title">
-                                <h5><a href="team-details.html">Jenifer hotche</a>
-                                </h5>
-                            </div>
-                            <div class="category">
-                                <p>Installation Civil Enginner</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox -->
-                    <!-- featured-imagebox -->
-                    <div class="featured-imagebox featured-imagebox-team style1">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img class="img-fluid" src="https://via.placeholder.com/535x575/848484/FFFFFF.jpg"
-                                alt="image">
-                            <div class="cmt-box-view-overlay">
-                                <!-- cmt-box-view-overlay -->
-
-                            </div><!-- featured-thumbnail end-->
-                            <div class="cmt-social-links-wrapper">
-                                <ul class="social-icons square list-inline">
-                                    <li class="social-facebook"><a href="#"><i
-                                                class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li class="social-teitter"><a href=""><i
-                                                class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li class="social-instagram"><a href="#"><i
-                                                class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="featured-content text-center">
-                            <div class="featured-title">
-                                <h5><a href="team-details.html">jony wind</a></h5>
-                            </div>
-                            <div class="category">
-                                <p>Installation Civil Enginner</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--team-section end-->
-
-    <!--contact-text-section-->
-    <section class="cmt-row contact-text-section cmt-bgcolor-darkgrey cmt-bg cmt-bgimage-yes bg-img8 clearfix">
-        <div class="cmt-row-wrapper-bg-layer cmt-bg-layer"></div>
-        <div class="container">
-            <div class="row">
-                <!-- row -->
-                <div class="col-md-2 col-lg-3"></div>
-                <div class="col-sm-12 col-md-8 col-lg-6">
-                    <!-- section title -->
-                    <div class="section-title with-desc text-center clearfix">
-                        <div class="title-header">
-                            <h5>CONTACT DETAILS</h5>
-                            <h2 class="title">How can we help you?</h2>
-                        </div>
-                    </div><!-- section title end -->
-                </div>
-                <div class="col-md-2 col-lg-3"></div>
-            </div><!-- row end -->
-            <!-- row -->
-            <div class="row">
-            </div>
-        </div>
-    </section>
-    <!--contact-text-section end-->
-    <!--contact-section-->
-    <section class="cmt-row contact-section clearfix">
-        <div class="container">
-            <div class="row no-gutters mt_200 res-991-mt_30">
-                <!-- row -->
-                <div class="col-md-8">
-                    <div
-                        class="spacing-5 cmt-bgcolor-white cmt-bg col-bg-img-two cmt-col-bgimage-yes box-shadow">
-                        <div class="cmt-col-wrapper-bg-layer cmt-bg-layer">
-                            <div class="cmt-bg-layer-inner"></div>
-                        </div>
-                        <div class="layer-content">
-                            <!-- section title -->
-                            <div class="section-title clearfix">
-                                <div class="title-header">
-                                    <h5>FREE CONSULTATION</h5>
-                                    <h2 class="title">Get a free quote</h2>
-                                </div>
-                            </div><!-- section title end -->
-                            <form id="cmt-quote-form" class="row cmt-quote-form clearfix" method="post"
-                                action="#">
-
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input name="name" type="text" class="form-control" value=""
-                                            placeholder="Full Name" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input name="address" type="text" value="" placeholder="Email Address"
-                                            required="required" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input name="phone" type="text" value="" placeholder="Phone Number"
-                                            required="required" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input name="phone" type="text" value="" placeholder="Zip Code"
-                                            required="required" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <select class="form-control">
-                                            <option value="">Services</option>
-                                            <option value="">Reconstruction</option>
-                                            <option value="">General</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <textarea name="message" rows="5" placeholder="Message"
-                                            class="form-control" required="required"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group text-center">
-                                        <button type="submit" id="submit"
-                                            class="cmt-btn cmt-btn-size-md cmt-btn-bgcolor-skincolor w-100"
-                                            value="">
-                                            GET A FREE QUOTE
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="cmt-bg col-bg-img-three cmt-col-bgimage-yes lg-mr-15 md-mr-15">
-                        <div class="cmt-col-wrapper-bg-layer cmt-bg-layer">
-                        </div>
-                        <div class="layer-content">
-                            <div class="spacing-6">
-                                <!-- row -->
-                                <div class="row no-gutters">
-                                    <div class="col-md-10 col-lg-8 ml_100 res-991-ml-0 col-sm-5">
-                                        <!--featured-icon-box-->
-                                        <div
-                                            class="featured-icon-box text-center center-icon cmt-bgcolor-skincolor box-shadow">
-                                            <div class="featured-icon">
-                                                <!--featured-icon-->
-                                                <div
-                                                    class="cmt-icon cmt-icon_element-color-white cmt-icon_element-size-md">
-                                                    <i class="flaticon flaticon-placeholder"></i>
-                                                </div>
-                                            </div>
-                                            <div class="featured-content">
-                                                <!--featured-content-->
-                                                <div class="featured-title">
-                                                    <h5><a href="#">Visit Our
-                                                            Branches</a></h5>
-                                                </div>
-                                                <div class="featured-desc">
-                                                    <!--featured-desc-->
-                                                    <p>Themeforest, Envanto HQ 24 Fifth st., Los Angeles, USA
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--featured-icon-box-->
-                                    </div>
-                                </div><!-- row end -->
-                                <!-- row -->
-                                <div class="row no-gutters">
-                                    <div class="col-md-10 col-lg-8 col-sm-5 m-auto">
-                                        <!--featured-icon-box-->
-                                        <div
-                                            class="featured-icon-box text-center center-icon cmt-bgcolor-grey box-shadow">
-                                            <div class="featured-icon">
-                                                <!--featured-icon-->
-                                                <div
-                                                    class="cmt-icon cmt-icon_element-color-darkgrey cmt-icon_element-size-md">
-                                                    <i class="flaticon flaticon-placeholder"></i>
-                                                </div>
-                                            </div>
-                                            <div class="featured-content">
-                                                <!--featured-content-->
-                                                <div class="featured-title">
-                                                    <h5><a href="#">Visit Our
-                                                            Branches</a></h5>
-                                                </div>
-                                                <div class="featured-desc">
-                                                    <!--featured-desc-->
-                                                    <p>Themeforest, Envanto HQ 24 Fifth st., Los Angeles, USA
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--featured-icon-box-->
-                                    </div>
-                                </div><!-- row end -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- row end -->
-        </div>
-    </section>
-    <!--contact-section end-->
     <!--post-section-->
     <section class="cmt-row post-section style2 clearfix">
         <div class="container">
@@ -1093,227 +366,424 @@
                 <div class="col-md-2 col-lg-3"></div>
             </div><!-- row end -->
             <div class="row">
-                <div class="post-slide owl-carousel owl-theme owl-loaded" data-item="3" data-nav="false"
-                    data-dots="false" data-auto="false">
-                    <!-- featured-imagebox-post -->
-                    <div class="featured-imagebox featured-imagebox-post top-image style2 box-shadow">
-                        <div class="featured-thumbnail">
-                            <!-- featured-image -->
-                            <img class="img-fluid" src="https://via.placeholder.com/1200x800/848484/FFFFFF.jpg"
-                                alt="">
-                            <div class="cmt-box-post-date">
-                                <!-- cmt-box-post-date -->
-                                <span class="cmt-entry-date">
-                                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">17<span
-                                            class="entry-month entry-year">APR</span></time>
-                                </span>
-                            </div><!-- cmt-box-post-date end -->
-                        </div>
-                        <div class="featured-content text-left box-shadow">
-                            <!-- featured-content -->
-                            <div class="post-title featured-title">
-                                <h5><a href="single-blog.html">The 9 Best
-                                        Construction Guides of 2019</a></h5>
-                            </div>
-                            <div class="post-meta pb-15">
-                                <!-- post-meta -->
-                                <span class="cmt-meta-line comments-link"><i
-                                        class="fa fa-comments cmt-textcolor-skincolor"></i> Comments</span>
-                                <span class="cmt-meta-line byline"><i
-                                        class="fa fa-user cmt-textcolor-skincolor"></i> Alex</span>
-                            </div><!-- post-meta end -->
-                            <div class="post-desc featured-desc">
-                                <p class="pt-12">Lorem ipsum dolo hooljlj rt amet, csectetur adipimag A ms pum
-                                    ciis natoque peus loream ipsum siple.</p>
-                            </div>
-                            <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-right cmt-btn-color-darkgrey btn-inline"
-                                href="#">Read More<i
-                                    class="ti ti-angle-right"></i></a>
-                        </div><!-- featured-content end -->
-                    </div><!-- featured-imagebox-post end -->
-                    <!-- featured-imagebox-post -->
-                    <div class="featured-imagebox featured-imagebox-post top-image style2 box-shadow">
-                        <div class="featured-thumbnail">
-                            <!-- featured-image -->
-                            <img class="img-fluid" src="https://via.placeholder.com/1200x800/848484/FFFFFF.jpg"
-                                alt="">
-                            <div class="cmt-box-post-date">
-                                <!-- cmt-box-post-date -->
-                                <span class="cmt-entry-date">
-                                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">17<span
-                                            class="entry-month entry-year">APR</span></time>
-                                </span>
-                            </div><!-- cmt-box-post-date end -->
-                        </div>
-                        <div class="featured-content text-left box-shadow">
-                            <!-- featured-content -->
-                            <div class="post-title featured-title">
-                                <h5><a href="single-blog.html">Guide to Remodeling
-                                        your building </a></h5>
-                            </div>
-                            <div class="post-meta pb-15">
-                                <!-- post-meta -->
-                                <span class="cmt-meta-line comments-link"><i
-                                        class="fa fa-comments cmt-textcolor-skincolor"></i> Comments</span>
-                                <span class="cmt-meta-line byline"><i
-                                        class="fa fa-user cmt-textcolor-skincolor"></i> Alex</span>
-                            </div><!-- post-meta end -->
-                            <div class="post-desc featured-desc">
-                                <p class="pt-12">Lorem ipsum dolo hooljlj rt amet, csectetur adipimag A ms pum
-                                    ciis natoque peus loream ipsum siple.</p>
-                            </div>
-                            <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-right cmt-btn-color-darkgrey btn-inline"
-                                href="#">Read More<i
-                                    class="ti ti-angle-right"></i></a>
-                        </div><!-- featured-content end -->
-                    </div><!-- featured-imagebox-post end -->
-                    <!-- featured-imagebox-post -->
-                    <div class="featured-imagebox featured-imagebox-post top-image style2 box-shadow">
-                        <div class="featured-thumbnail">
-                            <!-- featured-image -->
-                            <img class="img-fluid" src="https://via.placeholder.com/1200x800/848484/FFFFFF.jpg"
-                                alt="">
-                            <div class="cmt-box-post-date">
-                                <!-- cmt-box-post-date -->
-                                <span class="cmt-entry-date">
-                                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">17<span
-                                            class="entry-month entry-year">APR</span></time>
-                                </span>
-                            </div><!-- cmt-box-post-date end -->
-                        </div>
-                        <div class="featured-content text-left box-shadow">
-                            <!-- featured-content -->
-                            <div class="post-title featured-title">
-                                <h5><a href="single-blog.html">Tips : Builders
-                                        needs Liability insurance</a></h5>
-                            </div>
-                            <div class="post-meta pb-15">
-                                <!-- post-meta -->
-                                <span class="cmt-meta-line comments-link"><i
-                                        class="fa fa-comments cmt-textcolor-skincolor"></i> Comments</span>
-                                <span class="cmt-meta-line byline"><i
-                                        class="fa fa-user cmt-textcolor-skincolor"></i> Alex</span>
-                            </div><!-- post-meta end -->
-                            <div class="post-desc featured-desc">
-                                <p class="pt-12">Lorem ipsum dolo hooljlj rt amet, csectetur adipimag A ms pum
-                                    ciis natoque peus loream ipsum siple.</p>
-                            </div>
-                            <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-right cmt-btn-color-darkgrey btn-inline"
-                                href="#">Read More<i
-                                    class="ti ti-angle-right"></i></a>
-                        </div><!-- featured-content end -->
-                    </div><!-- featured-imagebox-post end -->
-                    <!-- featured-imagebox-post -->
-                    <div class="featured-imagebox featured-imagebox-post top-image style2 box-shadow">
-                        <div class="featured-thumbnail">
-                            <!-- featured-image -->
-                            <img class="img-fluid" src="https://via.placeholder.com/1200x800/848484/FFFFFF.jpg"
-                                alt="">
-                            <div class="cmt-box-post-date">
-                                <!-- cmt-box-post-date -->
-                                <span class="cmt-entry-date">
-                                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">17<span
-                                            class="entry-month entry-year">APR</span></time>
-                                </span>
-                            </div><!-- cmt-box-post-date end -->
-                        </div>
-                        <div class="featured-content text-left box-shadow">
-                            <!-- featured-content -->
-                            <div class="post-title featured-title">
-                                <h5><a href="single-blog.html">Improve workflow
-                                        with Agile Construction</a></h5>
-                            </div>
-                            <div class="post-meta pb-15">
-                                <!-- post-meta -->
-                                <span class="cmt-meta-line comments-link"><i
-                                        class="fa fa-comments cmt-textcolor-skincolor"></i> Comments</span>
-                                <span class="cmt-meta-line byline"><i
-                                        class="fa fa-user cmt-textcolor-skincolor"></i> Alex</span>
-                            </div><!-- post-meta end -->
-                            <div class="post-desc featured-desc">
-                                <p class="pt-12">Lorem ipsum dolo hooljlj rt amet, csectetur adipimag A ms pum
-                                    ciis natoque peus loream ipsum siple.</p>
-                            </div>
-                            <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-right cmt-btn-color-darkgrey btn-inline"
-                                href="#">Read More<i
-                                    class="ti ti-angle-right"></i></a>
-                        </div><!-- featured-content end -->
-                    </div><!-- featured-imagebox-post end -->
-                    <!-- featured-imagebox-post -->
-                    <div class="featured-imagebox featured-imagebox-post top-image style2 box-shadow">
-                        <div class="featured-thumbnail">
-                            <!-- featured-image -->
-                            <img class="img-fluid" src="https://via.placeholder.com/1200x800/848484/FFFFFF.jpg"
-                                alt="">
-                            <div class="cmt-box-post-date">
-                                <!-- cmt-box-post-date -->
-                                <span class="cmt-entry-date">
-                                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">17<span
-                                            class="entry-month entry-year">APR</span></time>
-                                </span>
-                            </div><!-- cmt-box-post-date end -->
-                        </div>
-                        <div class="featured-content text-left box-shadow">
-                            <!-- featured-content -->
-                            <div class="post-title featured-title">
-                                <h5><a href="single-blog.html">How Is 3D printing
-                                        affecting the construction?</a></h5>
-                            </div>
-                            <div class="post-meta pb-15">
-                                <!-- post-meta -->
-                                <span class="cmt-meta-line comments-link"><i
-                                        class="fa fa-comments cmt-textcolor-skincolor"></i> Comments</span>
-                                <span class="cmt-meta-line byline"><i
-                                        class="fa fa-user cmt-textcolor-skincolor"></i> Alex</span>
-                            </div><!-- post-meta end -->
-                            <div class="post-desc featured-desc">
-                                <p class="pt-12">Lorem ipsum dolo hooljlj rt amet, csectetur adipimag A ms pum
-                                    ciis natoque peus loream ipsum siple.</p>
-                            </div>
-                            <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-right cmt-btn-color-darkgrey btn-inline"
-                                href="#">Read More<i
-                                    class="ti ti-angle-right"></i></a>
-                        </div><!-- featured-content end -->
-                    </div><!-- featured-imagebox-post end -->
-                    <!-- featured-imagebox-post -->
-                    <div class="featured-imagebox featured-imagebox-post top-image style2 box-shadow">
-                        <div class="featured-thumbnail">
-                            <!-- featured-image -->
-                            <img class="img-fluid" src="https://via.placeholder.com/1200x800/848484/FFFFFF.jpg"
-                                alt="">
-                            <div class="cmt-box-post-date">
-                                <!-- cmt-box-post-date -->
-                                <span class="cmt-entry-date">
-                                    <time class="entry-date" datetime="2019-01-16T07:07:55+00:00">17<span
-                                            class="entry-month entry-year">APR</span></time>
-                                </span>
-                            </div><!-- cmt-box-post-date end -->
-                        </div>
-                        <div class="featured-content text-left box-shadow">
-                            <!-- featured-content -->
-                            <div class="post-title featured-title">
-                                <h5><a href="single-blog.html">What are the
-                                        benefits of LEED certification?</a></h5>
-                            </div>
-                            <div class="post-meta pb-15">
-                                <!-- post-meta -->
-                                <span class="cmt-meta-line comments-link"><i
-                                        class="fa fa-comments cmt-textcolor-skincolor"></i> Comments</span>
-                                <span class="cmt-meta-line byline"><i
-                                        class="fa fa-user cmt-textcolor-skincolor"></i> Alex</span>
-                            </div><!-- post-meta end -->
-                            <div class="post-desc featured-desc">
-                                <p class="pt-12">Lorem ipsum dolo hooljlj rt amet, csectetur adipimag A ms pum
-                                    ciis natoque peus loream ipsum siple.</p>
-                            </div>
-                            <a class="cmt-btn cmt-btn-size-sm cmt-icon-btn-right cmt-btn-color-darkgrey btn-inline"
-                                href="#">Read More<i
-                                    class="ti ti-angle-right"></i></a>
-                        </div><!-- featured-content end -->
-                    </div><!-- featured-imagebox-post end -->
-                </div>
+
             </div>
         </div>
     </section>
     <!--post-section end-->
+
+    <section class="cmt-row testimonial-section cmt-bgcolor-skincolor cmt-bg cmt-bgimage-yes bg-img4 clearfix">
+        <div class="cmt-row-wrapper-bg-layer cmt-bg-layer"></div>
+        <div class="container">
+            <div class="row">
+                <!-- row -->
+                <div class="col-1 col-md-2 col-lg-3"></div>
+                <div class="col-10 col-md-8 col-lg-6">
+                    <!-- section title -->
+                    <div class="section-title with-desc text-center clearfix">
+                        <div class="title-header">
+                            <h5>Testimonial</h5>
+                            <h2 class="title">What our clients saying?</h2>
+                        </div>
+                    </div><!-- section title end -->
+                </div>
+                <div class="col-1 col-md-2 col-lg-3"></div>
+            </div><!-- row end-->
+            <div class="row">
+                <!-- wrap-testimonial -->
+                <div class="testimonial-slide owl-carousel" data-item="3" data-nav="false" data-dots="true"
+                    data-auto="false">
+                    <!-- testimonials -->
+                    <div class="testimonials cmt-testimonial-box-view-style1">
+                        <div class="testimonial-content">
+                            <!-- testimonial-content -->
+                            <blockquote class="testimonial-text">Praesent pharetra orci odio, ut mattis tellus ullamcorper
+                                ornare. Suspendisse ullamcorper metus in erat viverra , vehicula pharetra dolo.</blockquote>
+                            <div class="testimonial-avatar">
+                                <div class="testimonial-img">
+                                    <!-- testimonial-img -->
+                                    <img class="img-fluid" src="https://via.placeholder.com/130x131/848484/FFFFFF.jpg"
+                                        alt="testimonial-img">
+                                </div>
+                                <div class="testimonial-caption">
+                                    <h5>Rshley Foster</h5><!-- testimonial-caption -->
+                                    <label>CEO Of Financial Corp.</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- testimonials end -->
+                    <!-- testimonials -->
+                    <div class="testimonials cmt-testimonial-box-view-style1">
+                        <div class="testimonial-content">
+                            <!-- testimonial-content -->
+                            <blockquote class="testimonial-text">Praesent pharetra orci odio, ut mattis tellus ullamcorper
+                                ornare. Suspendisse ullamcorper metus in erat viverra , vehicula pharetra dolo.</blockquote>
+                            <div class="testimonial-avatar">
+                                <div class="testimonial-img">
+                                    <!-- testimonial-img -->
+                                    <img class="img-fluid" src="https://via.placeholder.com/130x131/848484/FFFFFF.jpg"
+                                        alt="testimonial-img">
+                                </div>
+                                <div class="testimonial-caption">
+                                    <h5>Alex John</h5><!-- testimonial-caption -->
+                                    <label>CEO Of Financial Corp.</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- testimonials end -->
+                    <!-- testimonials -->
+                    <div class="testimonials cmt-testimonial-box-view-style1">
+                        <div class="testimonial-content">
+                            <!-- testimonial-content -->
+                            <blockquote class="testimonial-text">Praesent pharetra orci odio, ut mattis tellus ullamcorper
+                                ornare. Suspendisse ullamcorper metus in erat viverra , vehicula pharetra dolo.</blockquote>
+                            <div class="testimonial-avatar">
+                                <div class="testimonial-img">
+                                    <!-- testimonial-img -->
+                                    <img class="img-fluid" src="https://via.placeholder.com/130x131/848484/FFFFFF.jpg"
+                                        alt="testimonial-img">
+                                </div>
+                                <div class="testimonial-caption">
+                                    <h5>Maria st</h5><!-- testimonial-caption -->
+                                    <label>CEO Of Financial Corp.</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- testimonials end -->
+                    <!-- testimonials -->
+                    <div class="testimonials cmt-testimonial-box-view-style1">
+                        <div class="testimonial-content">
+                            <!-- testimonial-content -->
+                            <blockquote class="testimonial-text">Praesent pharetra orci odio, ut mattis tellus ullamcorper
+                                ornare. Suspendisse ullamcorper metus in erat viverra , vehicula pharetra dolo.</blockquote>
+                            <div class="testimonial-avatar">
+                                <div class="testimonial-img">
+                                    <!-- testimonial-img -->
+                                    <img class="img-fluid" src="https://via.placeholder.com/130x131/848484/FFFFFF.jpg"
+                                        alt="testimonial-img">
+                                </div>
+                                <div class="testimonial-caption">
+                                    <h5>Joe Smith</h5><!-- testimonial-caption -->
+                                    <label>CEO Of Financial Corp.</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- testimonials end -->
+                    <!-- testimonials -->
+                    <div class="testimonials cmt-testimonial-box-view-style1">
+                        <div class="testimonial-content">
+                            <!-- testimonial-content -->
+                            <blockquote class="testimonial-text">Praesent pharetra orci odio, ut mattis tellus ullamcorper
+                                ornare. Suspendisse ullamcorper metus in erat viverra , vehicula pharetra dolo.</blockquote>
+                            <div class="testimonial-avatar">
+                                <div class="testimonial-img">
+                                    <!-- testimonial-img -->
+                                    <img class="img-fluid" src="https://via.placeholder.com/130x131/848484/FFFFFF.jpg"
+                                        alt="testimonial-img">
+                                </div>
+                                <div class="testimonial-caption">
+                                    <h5>Lara huie</h5><!-- testimonial-caption -->
+                                    <label>CEO Of Financial Corp.</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- testimonials end -->
+                    <!-- testimonials -->
+                    <div class="testimonials cmt-testimonial-box-view-style1">
+                        <div class="testimonial-content">
+                            <!-- testimonial-content -->
+                            <blockquote class="testimonial-text">Praesent pharetra orci odio, ut mattis tellus ullamcorper
+                                ornare. Suspendisse ullamcorper metus in erat viverra , vehicula pharetra dolo.</blockquote>
+                            <div class="testimonial-avatar">
+                                <div class="testimonial-img">
+                                    <!-- testimonial-img -->
+                                    <img class="img-fluid" src="https://via.placeholder.com/130x131/848484/FFFFFF.jpg"
+                                        alt="testimonial-img">
+                                </div>
+                                <div class="testimonial-caption">
+                                    <h5>Maria st</h5><!-- testimonial-caption -->
+                                    <label>CEO Of Financial Corp.</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- testimonials end -->
+                    <!-- testimonials -->
+                    <div class="testimonials cmt-testimonial-box-view-style1">
+                        <div class="testimonial-content">
+                            <!-- testimonial-content -->
+                            <blockquote class="testimonial-text">Praesent pharetra orci odio, ut mattis tellus ullamcorper
+                                ornare. Suspendisse ullamcorper metus in erat viverra , vehicula pharetra dolo.</blockquote>
+                            <div class="testimonial-avatar">
+                                <div class="testimonial-img">
+                                    <!-- testimonial-img -->
+                                    <img class="img-fluid" src="https://via.placeholder.com/130x131/848484/FFFFFF.jpg"
+                                        alt="testimonial-img">
+                                </div>
+                                <div class="testimonial-caption">
+                                    <h5>Joe Smith</h5><!-- testimonial-caption -->
+                                    <label>CEO Of Financial Corp.</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- testimonials end -->
+                </div><!-- wrap-testimonial end-->
+            </div>
+        </div>
+    </section>
+    <!--portfolio-text-section-->
+    <!--portfolio-section-->
+    <section class="cmt-row portfolio-text-section cmt-bgcolor-darkgrey clearfix">
+        <div class="container">
+            <div class="row">
+                <!-- row -->
+                <div class="col-sm-12">
+                    <!-- section title -->
+                    <div class="section-title style2 clearfix">
+                        <div class="title-header">
+                            <h5>We Make Connections</h5>
+                            <h2 class="title">Explore recent projects</h2>
+                        </div>
+                        <div class="title-desc">The argument in favor of using filler text goes something like this: If you
+                            use real iller text goes something content in the design.</div>
+                    </div><!-- section title end -->
+                </div>
+            </div><!-- row end-->
+        </div>
+    </section>
+    <section class="cmt-row portfolio-section cmt-bgcolor-grey clearfix">
+        <div class="container-fluid">
+            <!-- row -->
+            <div class="row portfolio-slide owl-carousel cmt-boxes-spacing-10px owl-theme owl-loaded" data-item="5"
+                data-nav="false" data-dots="false" data-auto="false">
+                <!-- featured-imagebox -->
+                <div class="col-lg cmt-box-col-wrapper">
+                    <div class="featured-imagebox featured-imagebox-portfolio style1">
+                        <!-- featured-thumbnail -->
+                        <div class="featured-thumbnail">
+                            <img class="img-fluid" src="https://via.placeholder.com/600x700/848484/FFFFFF.jpg" alt="image">
+                        </div><!-- featured-thumbnail end-->
+                        <!-- cmt-box-view-overlay -->
+                        <div class="cmt-box-view-overlay">
+                            <div class="portfolio-icon-box">
+                                <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                            </div>
+                        </div><!-- cmt-box-view-overlay end-->
+                        <div class="featured-content">
+                            <div class="category">
+                                <p>Insulation</p>
+                            </div>
+                            <div class="featured-title">
+                                <h5><a href="portfolio-single.html">Install insulation</a></h5>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox -->
+                </div>
+                <!-- featured-imagebox -->
+                <div class="col-lg cmt-box-col-wrapper">
+                    <div class="featured-imagebox featured-imagebox-portfolio style1">
+                        <!-- featured-thumbnail -->
+                        <div class="featured-thumbnail">
+                            <img class="img-fluid" src="https://via.placeholder.com/600x700/848484/FFFFFF.jpg" alt="image">
+                        </div><!-- featured-thumbnail end-->
+                        <!-- cmt-box-view-overlay -->
+                        <div class="cmt-box-view-overlay">
+                            <div class="portfolio-icon-box">
+                                <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                            </div>
+                        </div><!-- cmt-box-view-overlay end-->
+                        <div class="featured-content">
+                            <div class="category">
+                                <p>Textures</p>
+                            </div>
+                            <div class="featured-title">
+                                <h5><a href="portfolio-single.html">interior textures</a></h5>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox -->
+                </div>
+                <!-- featured-imagebox -->
+                <div class="col-lg cmt-box-col-wrapper">
+                    <div class="featured-imagebox featured-imagebox-portfolio style1">
+                        <!-- featured-thumbnail -->
+                        <div class="featured-thumbnail">
+                            <img class="img-fluid" src="https://via.placeholder.com/600x700/848484/FFFFFF.jpg" alt="image">
+                        </div>
+                        <!-- cmt-box-view-overlay -->
+                        <div class="cmt-box-view-overlay">
+                            <div class="portfolio-icon-box">
+                                <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                            </div>
+                        </div><!-- cmt-box-view-overlay end-->
+                        <div class="featured-content">
+                            <div class="category">
+                                <p>exterior</p>
+                            </div>
+                            <div class="featured-title">
+                                <h5><a href="portfolio-single.html">install exterior</a></h5>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox -->
+                </div>
+                <!-- featured-imagebox -->
+                <div class="col-lg cmt-box-col-wrapper">
+                    <div class="featured-imagebox featured-imagebox-portfolio style1">
+                        <!-- featured-thumbnail -->
+                        <div class="featured-thumbnail">
+                            <img class="img-fluid" src="https://via.placeholder.com/600x700/848484/FFFFFF.jpg" alt="image">
+                        </div><!-- featured-thumbnail end-->
+                        <!-- cmt-box-view-overlay -->
+                        <div class="cmt-box-view-overlay">
+                            <div class="portfolio-icon-box">
+                                <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                            </div>
+                        </div><!-- cmt-box-view-overlay end-->
+                        <div class="featured-content">
+                            <div class="category">
+                                <p>exterior</p>
+                            </div>
+                            <div class="featured-title">
+                                <h5><a href="portfolio-single.html">mechanical trim</a></h5>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox -->
+                </div>
+                <!-- featured-imagebox -->
+                <div class="col-lg cmt-box-col-wrapper">
+                    <div class="featured-imagebox featured-imagebox-portfolio style1">
+                        <!-- featured-thumbnail -->
+                        <div class="featured-thumbnail">
+                            <img class="img-fluid" src="https://via.placeholder.com/600x700/848484/FFFFFF.jpg" alt="image">
+                        </div><!-- featured-thumbnail end-->
+                        <!-- cmt-box-view-overlay -->
+                        <div class="cmt-box-view-overlay">
+                            <div class="portfolio-icon-box">
+                                <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                            </div>
+                        </div><!-- cmt-box-view-overlay end-->
+                        <div class="featured-content">
+                            <div class="category">
+                                <p>exterior</p>
+                            </div>
+                            <div class="featured-title">
+                                <h5><a href="portfolio-single.html">landscaping</a></h5>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox -->
+                </div>
+                <!-- featured-imagebox -->
+                <div class="col-lg cmt-box-col-wrapper">
+                    <div class="featured-imagebox featured-imagebox-portfolio style1">
+                        <!-- featured-thumbnail -->
+                        <div class="featured-thumbnail">
+                            <img class="img-fluid" src="https://via.placeholder.com/600x700/848484/FFFFFF.jpg" alt="image">
+                        </div><!-- featured-thumbnail end -->
+                        <!-- cmt-box-view-overlay -->
+                        <div class="cmt-box-view-overlay">
+                            <div class="portfolio-icon-box">
+                                <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                            </div>
+                        </div><!-- cmt-box-view-overlay end-->
+                        <div class="featured-content">
+                            <div class="category">
+                                <p>exterior</p>
+                            </div>
+                            <div class="featured-title">
+                                <h5><a href="portfolio-single.html">pour foundation</a></h5>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox -->
+                </div>
+                <!-- featured-imagebox -->
+                <div class="col-lg cmt-box-col-wrapper">
+                    <div class="featured-imagebox featured-imagebox-portfolio style1">
+                        <!-- featured-thumbnail -->
+                        <div class="featured-thumbnail">
+                            <img class="img-fluid" src="https://via.placeholder.com/600x700/848484/FFFFFF.jpg" alt="image">
+                        </div><!-- featured-thumbnail end -->
+                        <!-- cmt-box-view-overlay -->
+                        <div class="cmt-box-view-overlay">
+                            <div class="portfolio-icon-box">
+                                <a href="portfolio-single.html"><i class="ti ti-plus"></i></a>
+                            </div>
+                        </div><!-- cmt-box-view-overlay end-->
+                        <div class="featured-content">
+                            <div class="category">
+                                <p>Install</p>
+                            </div>
+                            <div class="featured-title">
+                                <h5><a href="portfolio-single.html">Install insulation</a></h5>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox -->
+                </div>
+            </div><!-- row -->
+            <!-- row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="mt-30 mb-40 res-991-mt-30 text-center">
+                        <p class="mb-0">Don’t hesitate, contact us for better help and services.&nbsp;<a
+                                href="#"><strong><u>View more Project</u></strong></a></p>
+                    </div>
+                </div>
+            </div><!-- row end-->
+        </div>
+    </section>
+    <section class="cmt-row testimonial-section clearfix">
+        <div class="cmt-row-wrapper-bg-layer cmt-bg-layer"></div>
+        <div class="container">
+            <div class="row">
+                <!-- row -->
+                <div class="col-1 col-md-2 col-lg-3"></div>
+                <div class="col-10 col-md-8 col-lg-6">
+                    <!-- section title -->
+                    <div class="section-title with-desc text-center clearfix">
+                        <div class="title-header">
+                            <h5>Tiêu điểm</h5>
+                            <h2 class="title">Câu hỏi thường gặp</h2>
+                        </div>
+                    </div><!-- section title end -->
+                </div>
+                <div class="col-1 col-md-2 col-lg-3"></div>
+            </div><!-- row end-->
+            <div class="row">
+                <div class="accordion mb-35 col-12">
+                    <!-- accordion -->
+                    <!-- toggle -->
+                    <div class="toggle cmt-style-classic cmt-toggle-title-bgcolor-grey active">
+                        <div class="toggle-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Is
+                                Home Planning Services Siding Safe?</a></div>
+                        <div class="toggle-content" style="display: block;">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                been the industry’s standard dummy. It has survived not only five centuries, but also the
+                                leap into electronic typesetting, remaining essentially unchanged.</p>
+                        </div>
+                    </div><!-- toggle end -->
+                    <!-- toggle -->
+                    <div class="toggle cmt-style-classic cmt-toggle-title-bgcolor-grey">
+                        <div class="toggle-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">How
+                                to clean Home.</a></div>
+                        <div class="toggle-content">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                been the industry’s standard dummy. It has survived not only five centuries, but also the
+                                leap into electronic typesetting, remaining essentially unchanged.</p>
+                        </div>
+                    </div><!-- toggle end -->
+                    <!-- toggle -->
+                    <div class="toggle cmt-style-classic cmt-toggle-title-bgcolor-grey">
+                        <div class="toggle-title"><a data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseThree">How much does it Cost to Home Planning.</a></div>
+                        <div class="toggle-content">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                been the industry’s standard dummy. It has survived not only five centuries, but also the
+                                leap into electronic typesetting, remaining essentially unchanged.</p>
+                        </div>
+                    </div><!-- toggle end -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
 @endsection

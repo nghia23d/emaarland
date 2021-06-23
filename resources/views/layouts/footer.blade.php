@@ -5,7 +5,7 @@
                 <div class="col-lg-3">
                     <div class="footer-logo">
                         <img id="footer-logo-img" class="img-center"
-                            src="/themes/{{ $theme }}/images/footer-logo.png" alt="">
+                            src="/themes/{{ $theme }}/images/logo.png" style="max-height: 75px; border-radius:10px" alt="">
                     </div>
                 </div>
                 <div class="col-lg-9">
@@ -124,8 +124,14 @@
         <div class="container">
             <div class="row copyright">
                 <div class="col-md-8 cmt-footer2-left">
-                    <span>Copyright © 2019&nbsp;<a href="/themes/{{ $theme }}/#">Construction</a>. All
-                        rights reserved.</span>
+                    ©
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            Bản quyền thuộc về
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                            <a class="text-dark font-weight-normal" href="nghia23d.com" target="_blank">
+                                <b> Nghia23d</b></a>
                 </div>
                 <div class="col-md-4 cmt-footer2-right">
                     <div class="social-icons">
