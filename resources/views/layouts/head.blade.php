@@ -32,7 +32,7 @@
 <link rel="stylesheet" type="text/css" href="/themes/{{ $theme }}/css/flaticon.css"/>
 <link rel="stylesheet" type="text/css" href="/themes/{{ $theme }}/css/fontello.css"/>
 <link rel="stylesheet" type="text/css" href="/themes/{{ $theme }}/css/prettyPhoto.css">
-<link rel="stylesheet" type="text/css" href="/themes/{{ $theme }}/css/shortcodes.css"/>
+<link rel="stylesheet" type="text/css" href="/themes/{{ $theme }}/css/shortcodes.css?v={{$versionCss}}"/>
 <link rel="stylesheet" type="text/css" href="/themes/{{ $theme }}/css/main.css"/>
 <link rel="stylesheet" type="text/css" href="/themes/{{ $theme }}/css/responsive.css"/>
 
@@ -41,5 +41,5 @@
 <link rel="stylesheet" type="text/css" href="/themes/{{ $theme }}/revolution/css/settings.css">
 
 <!-- custom-->
-<link rel="stylesheet" type="text/css" href="/themes/{{ $theme }}/custom/style.css">
+<link rel="stylesheet" type="text/css" href="/themes/{{ $theme }}/custom/style.css?v={{$versionCss}}">
 

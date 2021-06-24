@@ -21,3 +21,6 @@
   .custom-scrollbar::-webkit-scrollbar-thumb:active {
     background-color: #003c52;
   }
+  .portfolio-slide img{
+    height: 245px !important;
+  }

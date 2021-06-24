@@ -3,6 +3,7 @@
 
 @php
 $theme = 'emaarland';
+$versionCss = '1.0';
 @endphp
 
 <head>
@@ -19,7 +20,6 @@ $theme = 'emaarland';
         @include('layouts.topbar')
 
         @include('elements.slider', ['data' => $data->slider])
-
 
 
         <!--site-main start-->

@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use nghia23d\cms\Models\Blog;
 use nghia23d\cms\Models\QuestionAsk;
 use nghia23d\cms\Models\Slider;
+use nghia23d\cms\Models\Review;
 
 class HomeController
 {
@@ -21,6 +22,7 @@ class HomeController
         $data =  (object) [
           'slider'         => (new Slider())->getDataActive(3),
           'questionAsk'    => (new QuestionAsk())->getDataActive(),
+          'review'         => (new Review())->getDataActive(),
           'blogHightLight' => $this->blogModel->getBlogHighLight(10),
         ];
 

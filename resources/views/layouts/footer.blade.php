@@ -22,8 +22,8 @@
                                             </div>
                                         </div>
                                         <div class="featured-title">
-                                            <h5>Subscribe To Our Newsletter</h5>
-                                            <p>Stay in touch with us to get latest news and discount coupons</p>
+                                            <h5>Nhận tin tức mới nhất</h5>
+                                            <p>Đăng ký để nhận những các dự án đang mở bán sớm nhất</p>
                                         </div>
                                     </div>
                                 </div>
@@ -32,7 +32,7 @@
                                 <form id="subscribe-form" class="newsletter-form" method="post" action="#"
                                     data-mailchimp="true">
                                     <div class="mailchimp-inputbox clearfix" id="subscribe-content">
-                                        <p><input type="email" name="email" placeholder="Email Address.."
+                                        <p><input type="email" name="email" placeholder="Địa chỉ email.."
                                                 required="">
 
                                         </p>
@@ -53,39 +53,36 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_contact clearfix">
-                        <h3 class="widget-title">Get In Touch</h3>
+                        <h3 class="widget-title">Tập đoàn Emaarland</h3>
                         <ul class="">
-                            <li><i class="fa fa-map-marker"></i>Themeforest, Envanto HQ<br>24 Fifth st., Los
-                                Angeles, USA</li>
+                            <li><i class="fa fa-map-marker"></i>Số 71 Tạ Hiện, Phường Thạnh Mỹ Lợi, Quận 2, Thành phố Hồ Chí Minh, Việt Nam
+                            </li>
                             <li><i class="fa fa-envelope-o"></i>Email : <a
-                                    href="/themes/{{ $theme }}/#">name@yourmail.com</a></li>
-                            <li><i class="fa fa-phone"></i>Phone : +12 (3) 456 0000 <br>Support : +12 (3) 456
-                                0000</li>
+                                    href="mailto:emaarland.vn">admin@emaarland.vn</a></li>
+                            <li><i class="fa fa-phone"></i>Phone : (+84) 946624835</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_nav_menu clearfix">
-                        <h3 class="widget-title">Useful Links</h3>
+                        <h3 class="widget-title">Tiện ích</h3>
                         <ul id="menu-footer-services">
-                            <li><a href="/themes/{{ $theme }}/#">Home</a></li>
-                            <li><a href="/themes/{{ $theme }}/#">FAQ</a></li>
-                            <li><a href="/themes/{{ $theme }}/#">Services</a></li>
-                            <li><a href="/themes/{{ $theme }}/#">Offers</a></li>
-                            <li><a href="/themes/{{ $theme }}/#">About</a></li>
-                            <li><a href="/themes/{{ $theme }}/#">Contact Us</a></li>
-                            <li><a href="/themes/{{ $theme }}/#">Gallery</a></li>
-                            <li><a href="/themes/{{ $theme }}/#">Pricing</a></li>
-                            <li><a href="/themes/{{ $theme }}/#">Blog</a></li>
-                            <li><a href="/themes/{{ $theme }}/#">Locations</a></li>
-                            <li><a href="/themes/{{ $theme }}/#">Map</a></li>
-                            <li><a href="/themes/{{ $theme }}/#">Review</a></li>
+                            <li><a href="/themes/{{ $theme }}/#">Nhà cửa</a></li>
+                            <li><a href="/themes/{{ $theme }}/#">Thiết kế</a></li>
+                            <li><a href="/themes/{{ $theme }}/#">Chung cư </a></li>
+                            <li><a href="/themes/{{ $theme }}/#">Du lịch</a></li>
+                            <li><a href="/themes/{{ $theme }}/#">Decor</a></li>
+                            <li><a href="/themes/{{ $theme }}/#">Quản lý dự án</a></li>
+                            <li><a href="/themes/{{ $theme }}/#">Thi công</a></li>
+                            <li><a href="/themes/{{ $theme }}/#">Bài viết</a></li>
+                            <li><a href="/themes/{{ $theme }}/#">Liên hệ</a></li>
+                            <li><a href="/themes/{{ $theme }}/#">Về Emaarland</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_post clearfix">
-                        <h3 class="widget-title">Recent Posts</h3>
+                        <h3 class="widget-title">Bài viết gần đây</h3>
                         <ul class="cmt-recent-post-list">
                             <li>
                                 <a href="/themes/{{ $theme }}/#"><img
@@ -108,12 +105,12 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_text clearfix">
-                        <h3 class="widget-title">Get Free Estimate</h3>
+                        <h3 class="widget-title">Tư vấn miễn phí</h3>
                         <div class="">
-                            <h3 class="widget_text_title cmt-textcolor-skincolor">123-456-78910</h3>
-                            <p>Our online scheduling and payment system is safe.</p>
+                            <h3 class="widget_text_title cmt-textcolor-skincolor">(+84) 946624835</h3>
+                            <p>Tư vấn giải đáp tất cả các vấn đề về đầu tư kinh doanh bất động sản</p>
                             <a class="cmt-btn cmt-btn-size-md cmt-btn-shape-square cmt-btn-style-border cmt-btn-color-skincolor mt-15 mb-20"
-                                href="/themes/{{ $theme }}/#">Request With Online Form</a>
+                                href="#">Gửi yêu cầu ngay</a>
                         </div>
                     </div>
                 </div>
@@ -130,7 +127,7 @@
                             </script>
                             Bản quyền thuộc về
                             <i class="fa fa-heart" aria-hidden="true"></i>
-                            <a class="text-dark font-weight-normal" href="nghia23d.com" target="_blank">
+                            <a class="text-white font-weight-normal" href="https://nghia23d.com" target="_blank">
                                 <b> Nghia23d</b></a>
                 </div>
                 <div class="col-md-4 cmt-footer2-right">
