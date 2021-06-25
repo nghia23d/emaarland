@@ -3,7 +3,7 @@
 
 @php
 $theme = 'emaarland';
-$versionCss = '1.0';
+$versionCss = '1.2';
 @endphp
 
 <head>
@@ -19,7 +19,9 @@ $versionCss = '1.0';
 
         @include('layouts.topbar')
 
-        @include('elements.slider', ['data' => $data->slider])
+        @if (\Route::currentRouteName() == 'home')
+            @include('elements.slider', ['data' => $data->slider])
+        @endif
 
 
         <!--site-main start-->

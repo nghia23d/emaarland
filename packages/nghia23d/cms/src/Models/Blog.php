@@ -1,6 +1,7 @@
 <?php
 
 namespace nghia23d\cms\Models;
+use Carbon\Carbon;
 
 class Blog extends BaseModel
 {
@@ -65,4 +66,8 @@ class Blog extends BaseModel
             ->latest()
             ->get();
     }
+    public function getDiffForHumansAttribute(){
+        return Carbon::parse($this->created_at)->diffForHumans(now());
+    }
+
 }

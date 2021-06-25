@@ -23,7 +23,7 @@
 
                         <div class="toggle cmt-style-classic cmt-toggle-title-bgcolor-grey @if (!$index) active @endif">
                             <div class="toggle-title"><a data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapseOne{{ $index }}">Is
+                                    href="#collapseOne{{ $index }}">
                                     {{ $value->question }}</a></div>
 
                             <div class="toggle-content" style="display: @if (!$index) block @endif;">

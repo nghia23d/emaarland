@@ -11,6 +11,10 @@ class BaseModel extends Model
 
     const ITEM_PER_PAGE   = 10;
 
+    protected $casts = [
+        'created_at' => 'datetime',
+    ];
+
     public function scopeActive($query)
     {
         return $query->where('status', self::STATUS_ACTIVE);

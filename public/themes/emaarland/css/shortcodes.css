@@ -300,7 +300,8 @@
     background-image: url(https://i0.wp.com/s1.uphinh.org/2021/06/24/IMG_1659.jpg)!important;
     background-position: right bottom!important;
     background-repeat: no-repeat!important;
-    background-size: cover
+    background-size: cover;
+    transition: all 0.4s ease-out 0s;
 }
 .col-bg-img-ten.cmt-col-bgimage-yes .cmt-col-wrapper-bg-layer {
     background-image: url(https://via.placeholder.com/844x582/848484/FFFFFF.png)!important;

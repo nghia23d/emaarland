@@ -24,3 +24,11 @@
   .portfolio-slide img{
     height: 245px !important;
   }
+  .custom-content img{
+    max-width: 100% !important;
+    height: auto;
+  }
+
+  .cmt-col-bgimage-yes:hover .cmt-col-wrapper-bg-layer{
+    transform: scale(1.04);
+}

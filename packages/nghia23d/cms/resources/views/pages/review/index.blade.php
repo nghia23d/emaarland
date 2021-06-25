@@ -96,7 +96,7 @@
                                                 <td> {{ $value->user_name }}</td>
                                                 <td> <img class="img-fluid" width="100" src="{{ $value->avatar }}"
                                                         alt="{{ $value->avatar }}"> </td>
-                                                <td>{{ $value->position }}></td>
+                                                <td>{{ $value->position }}</td>
                                                 <td>
                                                     {{ $value->description }}
                                                 </td>

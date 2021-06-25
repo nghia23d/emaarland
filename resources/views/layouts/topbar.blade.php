@@ -93,7 +93,7 @@
                                                <li><a href="#">Blog</a>
 
                                                </li>
-                                               <li><a href="#">Liên hệ</a></li>
+                                               <li><a href="lien-he.html">Liên hệ</a></li>
                                            </ul>
                                        </nav><!-- nav end-->
                                    </div><!-- site-navigation end-->

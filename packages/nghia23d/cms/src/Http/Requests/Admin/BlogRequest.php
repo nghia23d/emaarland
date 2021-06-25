@@ -28,14 +28,14 @@ class BlogRequest extends FormRequest
         $id = $this->route($this->table);
 
         $condThumb  = 'bail|required|max:1024';
-        $condTitle  = "bail|required|between:5,50|unique:$this->table,title";
+        $condTitle  = "bail|required|between:5,150|unique:$this->table,title";
 
         //rules for edit
         if (!empty($id)) {
             $condThumb   = 'bail|max:1024';
             $condTitle  .= ",$id";
         }
-        
+
         return [
             'title'            => $condTitle,
             'tag'              => 'bail|required',

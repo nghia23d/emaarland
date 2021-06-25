@@ -51,11 +51,12 @@
     <div class="second-footer cmt-textcolor-white">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 widget-area">
                     <div class="widget widget_contact clearfix">
                         <h3 class="widget-title">Tập đoàn Emaarland</h3>
-                        <ul class="">
-                            <li><i class="fa fa-map-marker"></i>Số 71 Tạ Hiện, Phường Thạnh Mỹ Lợi, Quận 2, Thành phố Hồ Chí Minh, Việt Nam
+                        <p>Tập đoàn Emaarland khẳng định là người dẫn dầu trong cuộc cách mạng tạo ra thế giới 4.0 về bất động sản, cam kết mang đến những dự án "đào hoa" nhất đến tay các nhà đầu tư.</p>
+                        <ul class="mt-25">
+                            <li><i class="fa fa-map-marker"></i>71 Tạ Hiện, Phường Thạnh Mỹ Lợi, Quận 2, Thành phố Hồ Chí Minh, Việt Nam
                             </li>
                             <li><i class="fa fa-envelope-o"></i>Email : <a
                                     href="mailto:emaarland.vn">admin@emaarland.vn</a></li>
@@ -80,7 +81,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                {{-- <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_post clearfix">
                         <h3 class="widget-title">Bài viết gần đây</h3>
                         <ul class="cmt-recent-post-list">
@@ -102,7 +103,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_text clearfix">
                         <h3 class="widget-title">Tư vấn miễn phí</h3>
