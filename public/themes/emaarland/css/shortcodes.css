@@ -174,13 +174,13 @@
     background-position: center
 }
 .bg-img4 {
-    background-image: url(https://via.placeholder.com/1920x1307/848484/FFFFFF.jpg);
+    background-image: url(/themes/emaarland/images/projects/Q2-Thao-Dien-Kitchen-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center
 }
 .bg-img5 {
-    background-image: url(https://via.placeholder.com/1920x767/848484/FFFFFF.png);
+    background-image: url(/themes/emaarland/images/projects/gioi-thieu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center
@@ -297,7 +297,7 @@
     background-size: cover
 }
 .col-bg-img-nine.cmt-col-bgimage-yes .cmt-col-wrapper-bg-layer {
-    background-image: url(https://i0.wp.com/s1.uphinh.org/2021/06/24/IMG_1659.jpg)!important;
+    background-image: url(/themes/emaarland/images/projects/tap-the-emaarland.jpg)!important;
     background-position: right bottom!important;
     background-repeat: no-repeat!important;
     background-size: cover;

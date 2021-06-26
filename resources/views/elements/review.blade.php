@@ -1,7 +1,7 @@
 @if (count($data) > 0)
 
 
-<section class="cmt-row testimonial-section cmt-bgcolor-skincolor cmt-bg cmt-bgimage-yes bg-img4 clearfix">
+<section class="cmt-row testimonial-section cmt-bgcolor-darkgrey cmt-bg cmt-bgimage-yes bg-img4 clearfix">
     <div class="cmt-row-wrapper-bg-layer cmt-bg-layer"></div>
     <div class="container">
         <div class="row">

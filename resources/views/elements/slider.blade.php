@@ -11,9 +11,7 @@
                     <li data-index="rs-{{$value}}" data-transition="boxslide" data-slotamount="default" data-hideafterloop="0"
                         data-hideslideonmobile="off" data-easein="default" data-easeout="default"
                         data-masterspeed="default" data-thumb="{{ $value->image }}" data-rotate="0"
-                        data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3=""
-                        data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                        data-param10="" data-description="">
+                        data-saveperformance="off" data-title="Slide">
 
                         <!-- Slider -->
                         <img src="{{ $value->image }}" alt="{{ $value->title }}" title="{{ $value->title }}"
@@ -36,7 +34,7 @@
                         </div>
 
                         <!-- Desc -->
-                        <div class="tp-caption" id="sl{{$value}}r-6" data-x="['left','left','center','center']"
+                        <div class="tp-caption custom-desc" id="sl{{$value}}r-6" data-x="['left','left','center','center']"
                             data-hoffset="['50','20','0','-473']" data-y="['top','top','middle','middle']"
                             data-voffset="['392','389','56','76']" data-fontsize="['17','17','16','12']"
                             data-lineheight="['27','27','26','18']" data-fontweight="['300','300','300','300']"

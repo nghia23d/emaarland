@@ -32,3 +32,18 @@
   .cmt-col-bgimage-yes:hover .cmt-col-wrapper-bg-layer{
     transform: scale(1.04);
 }
+
+
+@media only screen and (max-width: 485px){
+   .tp-caption.head-font{
+     white-space: normal !important;
+     width: 375px;
+     text-align: center !important;
+     background: rgba(0, 0, 0, 0.4);
+     padding: 15px;
+     border-radius: 15px;
+    }
+    .tp-hidden-caption{
+      display: none !important;
+    }
+  }

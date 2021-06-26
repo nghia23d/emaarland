@@ -3,7 +3,7 @@
 
 @php
 $theme = 'emaarland';
-$versionCss = '1.2';
+$versionCss = '1.2.2';
 @endphp
 
 <head>
