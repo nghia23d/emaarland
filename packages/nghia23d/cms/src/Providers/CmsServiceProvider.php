@@ -3,6 +3,7 @@ namespace nghia23d\cms\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use nghia23d\cms\Console\Commands\CreateAdmin;
+use Illuminate\Support\Facades\View;
 
 class CmsServiceProvider extends ServiceProvider
 {
@@ -26,5 +27,11 @@ class CmsServiceProvider extends ServiceProvider
         $this->commands([
             CreateAdmin::class,
         ]);
+        View::composer([
+                // 'cms::pages.blog*',
+                '*'
+            ],
+        'nghia23d\cms\Libraries\ViewComposers\CategoryComposer'
+        );
     }
 }

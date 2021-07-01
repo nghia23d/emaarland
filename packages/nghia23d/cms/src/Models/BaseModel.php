@@ -25,13 +25,17 @@ class BaseModel extends Model
         return $query->where('status', self::STATUS_INACTIVE);
     }
 
+    /**
+    * if $limit='all' return all Datactive
+    */
     public function getDataActive($limit = 10)
     {
-        return $this->active()
-                ->skip(0)
-                ->take($limit)
-                ->latest()
-                ->get();
+        $query = $this::query()->active()->latest();
+
+        if ($limit == 'all')
+            return $query->get();
+        else
+            return $query->skip(0)->take($limit)->get();
     }
 
     public function getDataActivePagination()

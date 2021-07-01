@@ -34,6 +34,15 @@
                       </p>
                     </a>
                   </li>
+                  <li class="nav-item">
+                    <a a href="{{ route('cms.category.index') }}"
+                      class="nav-link {{ Request::is('cms/category*') ? 'active' : '' }}">
+                      <i class="nav-icon far fa-image"></i>
+                      <p>
+                        Quản lý Danh mục
+                      </p>
+                    </a>
+                  </li>
               <li class="nav-item">
                 <a a href="{{ route('cms.blog.index') }}"
                   class="nav-link {{ Request::is('cms/blog*') ? 'active' : '' }}">

@@ -5,6 +5,7 @@ namespace nghia23d\cms\Http\Controllers\User;
 use Illuminate\Http\Request;
 
 //
+use nghia23d\cms\Models\Category;
 use nghia23d\cms\Models\Blog;
 use nghia23d\cms\Models\QuestionAsk;
 use nghia23d\cms\Models\Slider;
@@ -46,6 +47,12 @@ class HomeController
             'q'    => $request->q,
             'data' => $this->blogModel->search($request->q)
         ]);
+    }
+
+    public function getDetailCategory($slug_category)
+    {
+        $data = (new Category())->getCategoryWithSlugTitle($slug_category);
+        return view('category_detail', compact('data'));
     }
 
     public function getDetailBlog($slug_title)

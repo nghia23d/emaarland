@@ -22,7 +22,7 @@
                     <div class="featured-imagebox featured-imagebox-post top-image style2 box-shadow">
                         <div class="featured-thumbnail">
                             <!-- featured-image -->
-                            <img class="img-fluid" src="{{ $value->thumbnail }}" alt="{{ $value->title }}">
+                            <img class="img-fluid" src="{{ $value->thumbnail }}" alt="{{ $value->title }}" style="height:270px">
                             <div class="cmt-box-post-date">
                                 <!-- cmt-box-post-date -->
                                 <span class="cmt-entry-date">
@@ -49,6 +49,10 @@
                                 <span class="cmt-meta-line comments-link"><i
                                         class="fa fa-clock-o cmt-textcolor-skincolor"></i>
                                     {{ $value->diff_for_humans }}</span>
+                                    <span class="cmt-meta-line byline">
+                                        <i class="fa fa-tags cmt-textcolor-skincolor"></i>
+                                        {{ $value->category->title ?? 'Khác' }}
+                                    </span>
                             </div><!-- post-meta end -->
                             <div class="post-desc featured-desc">
                                 <div class="custom-content pt-12">

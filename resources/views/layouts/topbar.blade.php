@@ -84,16 +84,19 @@
                                            <ul class="dropdown">
                                                <li class="active"><a href="/">Trang chủ</a>
                                                </li>
-                                               <li><a href="#">Dự án</a>
+                                               <li><a href="#">Chuyên mục</a>
+                                                   @if (count($categories) > 0)
+                                                       <ul>
+                                                           @foreach ($categories as $value)
+                                                               <li> <a href="/chuyen-muc/{{$value->slug_title}}.html">{{ $value->title }}</a> </li>
+                                                           @endforeach
+                                                       </ul>
+                                                   @endif
+                                               </li>
+                                               <li><a href="/chuyen-muc/tuyen-dung.html">Tuyển dụng</a>
 
                                                </li>
-                                               <li><a href="#">Dịch vụ</a>
-
-                                               </li>
-                                               <li><a href="#">Blog</a>
-
-                                               </li>
-                                               <li><a href="lien-he.html">Liên hệ</a></li>
+                                               <li><a href="{{asset('lien-he.html')}}">Liên hệ</a></li>
                                            </ul>
                                        </nav><!-- nav end-->
                                    </div><!-- site-navigation end-->

@@ -16,6 +16,10 @@ Route::group(
         Route::resource('blog', 'BlogController');
         Route::get('blog/{id}/change-status', 'BlogController@changeStatus')->where('id', '[0-9]+');
 
+        // Category
+        Route::resource('category', 'CategoryController');
+        Route::get('category/{id}/change-status', 'CategoryController@changeStatus')->where('id', '[0-9]+');
+
         // QuestionAsk
         Route::resource('question_ask', 'QuestionAskController');
         Route::get('question_ask/{id}/change-status', 'QuestionAskController@changeStatus')->where('id', '[0-9]+');
@@ -38,11 +42,9 @@ Route::group(
         //Home
         Route::get('/', 'HomeController@pageHome')->name('home');
         Route::get('/blog.html', 'HomeController@pageBlog');
-        Route::get('/{slug_title}.html', 'HomeController@getDetailBlog')
-            ->where([
-                'slug_title', '[0-9a-zA-Z_-]+',
-                'id', '[0-9]+'
-            ]);
+
+        Route::get('/{slug_title}.html', 'HomeController@getDetailBlog')->whereAlpha('name');
+        Route::get('/chuyen-muc/{slug_category}.html', 'HomeController@getDetailCategory')->whereAlpha('name');
         Route::get('/search', 'HomeController@searchBlog')->name('search');
 
 

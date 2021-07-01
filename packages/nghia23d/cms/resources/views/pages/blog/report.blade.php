@@ -24,6 +24,15 @@
                     <input class="form-control" value="{{ $data->title }}" name="title" required>
             </div>
 
+            <div class="form-group mb-3">
+                <label for="name">Danh mục </label>
+                <select name="category_id" class="form-control">
+                    <option selected value> Không danh mục </option>
+                    @foreach ($categories as $value)
+                        <option @if($data->category_id == $value->id) selected @endif value="{{$value->id}}">{{$value->title}}</option>
+                    @endforeach
+                </select>
+            </div>
             <div class="form-row mb-3">
                 <div class="col-6">
                     <label for="name">Tag <sup class="text-danger">*</sup> </label>

@@ -1,5 +1,5 @@
 
-<title> {{ config('app.name') }} - @yield('title', 'Chuyên bất động sản số 1 Bảo Lộc')</title>
+<title> {{ config('app.name') }} - @yield('title', 'Tập đoàn giao dịch bất động sản số 1 Bảo Lộc')</title>
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +7,21 @@
 
 <!-- Meta SEO -->
 <meta name="author" content="EMAARLAND.VN" />
-<meta name="keywords" content="@yield('keywords', 'emaar, emaarland, emaarland bat dong san, emaarland bao loc')" />
-<meta name="description" content="@yield('description', 'Công ty bất động sản số 1 Bảo Lộc')" />
+<meta name="keywords" content="@yield('keywords', 'tap doan emaarland, emaarland, emaarland bat dong san, emaarland bao loc')" />
+<meta name="description" content="@yield('description', 'Tập đoàn Emaarland dẫn đầu về thị trường bất động sản Bảo Lộc. Mang đển khách hàng những dự án đất nền, khu chung cư, nghĩ dưỡng và đặc biệt là những tiện ích tuyệt vời về thị trường bất động sản 4.0. Emaarland cam kết luôn luôn sẽ là lựa chọn số 1 về đầu tư bất động sản Bảo Lộc')" />
 
 <!-- Meta Property SEO -->
 <meta property="og:locale" content="vi_VN" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ config('app.url') }}" />
-<meta property="og:title" content="@yield('title', 'Chuyên bất động sản số 1 Bảo Lộc')" />
-<meta property="og:description" content="@yield('description', 'Công ty bất động sản số 1 Bảo Lộc')" />
+<meta property="og:title" content="@yield('title', 'Tập đoàn giao dịch bất động sản số 1 Bảo Lộc')" />
+<meta property="og:description" content="@yield('description', 'Tập đoàn Emaarland dẫn đầu về thị trường bất động sản Bảo Lộc. Mang đển khách hàng những dự án đất nền, khu chung cư, nghĩ dưỡng và đặc biệt là những tiện ích tuyệt vời về thị trường bất động sản 4.0. Emaarland cam kết luôn luôn sẽ là lựa chọn số 1 về đầu tư bất động sản Bảo Lộc')" />
 <meta property="og:site_name" content="EMAARLAND.VN" />
 <meta property="og:rich_attachment" content="true" />
 <meta property="article:publisher" content="https://www.facebook.com/nghia23d" />
 
 <!-- favicon icon -->
-<link rel="shortcut icon" href="/themes/{{ $theme }}/images/favicon.png" />
+<link rel="shortcut icon" type="image/x-icon" href="/themes/{{ $theme }}/images/favicon.ico?v=2.0" />
 
 <!-- Themes -->
 <link rel="stylesheet" type="text/css" href="/themes/{{ $theme }}/css/bootstrap.min.css"/>
@@ -42,4 +42,28 @@
 
 <!-- custom-->
 <link rel="stylesheet" type="text/css" href="/themes/{{ $theme }}/custom/style.css?v={{$versionCss}}">
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60db2a5a7f4b000ac03a26f4/1f9c1qt60';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G4W4M5VFZH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G4W4M5VFZH');
+</script>
 

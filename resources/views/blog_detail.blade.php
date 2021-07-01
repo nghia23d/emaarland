@@ -18,7 +18,7 @@
                                 <a title="Homepage" href="/"><i class="ti ti-home"></i> Trang chủ</a>
                             </span>
                             <span class="cmt-bread-sep"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
-                            <span><span>Bài viết</span></span>
+                            <a href="/chuyen-muc/{{$data->category->slug_title}}.html"><span>{{$data->category->title}}</span></a>
                         </div>
                     </div>
                 </div><!-- /.col-md-12 -->
@@ -49,12 +49,14 @@
                                             class="fa fa-clock-o cmt-textcolor-skincolor"></i>
                                         {{ $data->created_at->format('G:i - d/m/Y') }}
                                     </time>
-                                    <span class="cmt-meta-line byline ml-2"><i
-                                            class="ti ti-user cmt-textcolor-skincolor"></i>
-                                        Admin</span>
-
-                                    <span class="cmt-meta-line byline"><i class="fa fa-tags cmt-textcolor-skincolor"></i>
-                                        Tập đoàn Emaarland</span>
+                                    <span class="cmt-meta-line byline ml-2">
+                                        <i class="ti ti-user cmt-textcolor-skincolor"></i>
+                                        Admin
+                                    </span>
+                                    <span class="cmt-meta-line byline">
+                                        <i class="fa fa-tags cmt-textcolor-skincolor"></i>
+                                        {{ $data->category->title ?? 'Khác' }}
+                                    </span>
                                 </div>
                                 <h2 class="title">{{ $data->title }}</h2>
                                 <div class="cmt-box-desc-text">
@@ -116,7 +118,7 @@
                             </form>
                         </aside>
 
-                        <aside class="widget tagcloud-widget">
+                        {{-- <aside class="widget tagcloud-widget">
                             <h3 class="widget-title">Tags</h3>
                             <div class="tagcloud">
                                 <a href="#" class="tag-cloud-link">Auto</a>
@@ -128,7 +130,7 @@
                                 <a href="#" class="tag-cloud-link">Business</a>
                                 <a href="#" class="tag-cloud-link">Department</a>
                             </div>
-                        </aside>
+                        </aside> --}}
                         <aside class="widget widget-newsletter text-center">
                             <h3 class="widget-title">Nhận Tin Tức Mới Nhất </h3>
                             <p>Đăng ký để nhận những các dự án đang mở bán sớm nhất </p>

@@ -32,7 +32,15 @@
                                     <input value="{{ old('title') }}" class="form-control" type="text" name="title"
                                         required>
                                 </div>
-
+                                <div class="form-group">
+                                    <label for="name">Danh mục </label>
+                                    <select name="category_id" class="form-control">
+                                        <option selected value> Không danh mục </option>
+                                        @foreach ($categories as $value)
+                                            <option value="{{$value->id}}">{{$value->title}}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
                                 <div class="form-row mb-3">
                                     <div class="col-6">
                                         <label for="name">Tag <sup class="text-danger">*</sup> </label>
@@ -92,7 +100,7 @@
                                         <td>#</td>
                                         <td>Tiêu đề</td>
                                         <td>Thumbnail</td>
-                                        <td>Meta description</td>
+                                        <td>Danh mục</td>
                                         <td>Trạng thái</td>
                                         <td>Tác giả</td>
                                         <td class="text-right">Thao tác</td>
@@ -108,7 +116,7 @@
                                         <td> <a target="_blank" href="/{{ $value->slug_title }}.html"> <b>
                                                     {{ $value->title }} </b> </a></td>
                                         <td> <img width="150" src="{{ $value->thumbnail }}" alt=""> </td>
-                                        <td> {{ $value->meta_description }} </td>
+                                        <td> {{ $value->category->title ?? 'Không có Danh mục'  }} </td>
                                         <td class="text-center">
                                             @component('cms::components.change_status')
                                             @slot('id')
